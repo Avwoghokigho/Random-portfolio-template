@@ -1,0 +1,237 @@
+body{
+    width: 100%;
+    height: 100vh;
+    color: rgba(36, 48, 45, 0.956);
+    border-radius: 50px;
+}
+.body{
+    border-radius: 50px;
+    background-color: #b0b5b0;
+}
+a{
+    text-decoration: none;
+    margin: 7px;
+    color: #24302df4;
+}
+.new{
+    background-color: #b0b5b0;
+    border-radius: 50px;
+    height: 600px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b0b5b0;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+header .email,.header-links{
+    margin: 30px;
+}
+.email{
+    display: flex;
+    align-items: center;
+}
+.email button{
+    width: 70px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    background-color: #f2faf2;
+    margin: 5px 5px 5px 15px;
+    padding: 5px 20px;
+    border: #24302df4;
+}
+.hero-section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #b0b5b0;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.hero-section h3{
+    margin: 0px;
+    font-size: 50px;
+}
+.hero-section button{
+    background-color: #24302df4;
+    border: none;
+    color: #f2faf2;
+    margin: 25px;
+    padding: 15px 25px;
+    border-radius: 18px;
+}
+.hero-section img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+.hero-section .id{
+    position: relative;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section .id span{
+    border-radius: 15px;
+    background-color: #f2faf2;
+    padding: 2px 5px;
+    rotate: -12deg;
+    position: absolute;
+    left: 58%;
+    top: 50%;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.ad-board{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: #f2faf2;
+}
+.talk{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.talk h1{
+    margin: 0px;
+    font-size: 30px;
+}
+.services{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 1px solid #8c8f8c;
+    position: relative;
+}
+.services .shead{
+    background-color: #f2faf2;
+    border-radius: 22px;
+    padding: 5px 10px;
+    rotate: -12deg;
+    position: absolute;
+    right: 50%;
+    top: -10%;
+}
+.services .boxes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.services .boxes .box{
+    height: 200px;
+    width: 200px;
+}
+.services .boxes .box h3{
+    margin:2px 0;
+}
+.services .boxes .box img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.contact{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2faf2;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.contact img{
+    border-radius: 50%;
+}
+.contact h1{
+    margin: 0px;
+    font-size: 30px;
+}
+.contact .contact-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact .contact-info button{
+    background-color: #24302df4;
+    color: #f2faf2;
+    width: 150px;
+    border: none;
+    margin: 15px;
+    padding: 15px 25px;
+    border-radius: 18px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2faf2;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+footer .header-links{
+    margin: 30px;
+}
+.message{
+    display: none;
+}
+.message img{
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+}
+.message .con{
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #b0b5b0;
+    background-color: #8c8f8c;
+    color: #f2faf2;
+    border-radius: 12px;
+}
+.message .con h3{
+    margin: 5px;
+}
+.message .con button{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+@media (max-width:760px) {
+    .body{
+        display: none;
+    }
+    .message{
+        display: block;
+    }
+}
+
+
